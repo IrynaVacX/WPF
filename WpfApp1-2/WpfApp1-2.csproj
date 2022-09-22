@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>WpfApp1_2</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BG_tuman_%283%29_forIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BG_tuman_(3)_forIcon.png" />
+  </ItemGroup>
+
+</Project>
