@@ -20,5 +20,3 @@ C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.
 C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.0-windows\ref\WpfApp2-2.dll
 C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.0-windows\WpfApp2-2.pdb
 C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.0-windows\WpfApp2-2.genruntimeconfig.cache
-C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.0-windows\Window1.g.cs
-C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp2-2\obj\Debug\net5.0-windows\Window1.baml
