@@ -8,7 +8,7 @@ namespace CW_0_WPF_begin
     public partial class Form1 : Form
     {
         private bool ifMdown = false;
-        private int x, y;
+        private Point curspos;
         public Form1()
         {
             InitializeComponent();
@@ -31,9 +31,8 @@ namespace CW_0_WPF_begin
         }
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
-            x = e.X - this.Location.X;
-            y = e.Y - this.Location.Y;
             ifMdown = true;
+            curspos = e.Location;
         }
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
@@ -42,9 +41,7 @@ namespace CW_0_WPF_begin
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
             if (ifMdown)
-            {
-                this.Location = new Point(e.X+x, e.Y+y);
-            }
+                this.Location = new Point(Cursor.Position.X - curspos.X, Cursor.Position.Y - curspos.Y);
         }
     }
 }

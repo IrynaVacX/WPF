@@ -1,0 +1,10 @@
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\bin\Debug\CW-00_WPF-begin.exe.config
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\bin\Debug\CW-00_WPF-begin.exe
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\bin\Debug\CW-00_WPF-begin.pdb
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW_0_WPF_begin.Form1.resources
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW_00_WPF_begin.Properties.Resources.resources
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW-0.csproj.GenerateResource.cache
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW-0.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW-00_WPF-begin.exe
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW-00_WPF-begin.pdb
+C:\Users\Александр\Source\Repos\IrynaVacX\WPF\CW-00_WPF-begin\obj\Debug\CW-0.csproj.AssemblyReference.cache
