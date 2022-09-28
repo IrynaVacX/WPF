@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj": {}
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj": {
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj",
         "projectName": "WpfApp2-2-3",
-        "projectPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj",
+        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\WpfApp2-2-3.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-2-3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

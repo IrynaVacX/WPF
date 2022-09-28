@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3-1_RadioButton", "WpfApp3-1_RadioButton.csproj", "{6EE5B120-4440-4E0F-A761-747B55A2E8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp3-2_Slider", "..\WpfApp3-2_Slider\WpfApp3-2_Slider.csproj", "{40A367CC-D7CD-4BB8-9DA3-EB54CE70F555}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE5B120-4440-4E0F-A761-747B55A2E8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE5B120-4440-4E0F-A761-747B55A2E8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE5B120-4440-4E0F-A761-747B55A2E8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE5B120-4440-4E0F-A761-747B55A2E8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A367CC-D7CD-4BB8-9DA3-EB54CE70F555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A367CC-D7CD-4BB8-9DA3-EB54CE70F555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A367CC-D7CD-4BB8-9DA3-EB54CE70F555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A367CC-D7CD-4BB8-9DA3-EB54CE70F555}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27D1EEFE-F3DB-44EA-8FDC-6A3DE17A3C31}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfApp4-2_DatePicker/1.0.0": {
+        "runtime": {
+          "WpfApp4-2_DatePicker.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp4-2_DatePicker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

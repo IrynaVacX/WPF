@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp3_2_Slider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3_2_Slider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="R" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Georgia" FontSize="20" FontWeight="Bold"/>
+        <Label Content="G" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Georgia" FontSize="20" FontWeight="Bold" Grid.Row="1"/>
+        <Label Content="B" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Georgia" FontSize="20" FontWeight="Bold" Grid.Row="2"/>
+        <Slider Name="_R" Grid.Column="1" Grid.Row="0" VerticalAlignment="Bottom" Maximum="255" Value="250" Ticks="0,25,50,75,100,125,150,175,200,225,250,255" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight"></Slider>
+        <Slider Name="_G" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Maximum="255" Value="250" Ticks="0,25,50,75,100,125,150,175,200,225,250,255" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight"></Slider>
+        <Slider Name="_B" Grid.Column="1" Grid.Row="2" VerticalAlignment="Top" Maximum="255" Value="250" Ticks="0,25,50,75,100,125,150,175,200,225,250,255" ValueChanged="Slider_ValueChanged" TickPlacement="BottomRight"></Slider>
+
+    </Grid>
+</Window>
