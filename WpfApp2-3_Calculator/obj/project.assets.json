@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\WpfApp2-3_Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\WpfApp2-3_Calculator.csproj",
       "projectName": "WpfApp2-3_Calculator",
-      "projectPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\WpfApp2-3_Calculator.csproj",
+      "projectPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\WpfApp2-3_Calculator.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-3_Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

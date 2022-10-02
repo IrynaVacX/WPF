@@ -1,0 +1,369 @@
+﻿<Window x:Class="WpfApp2_4_MyState.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2_4_MyState"
+        mc:Ignorable="d"
+        Title="MyStat" Height="550" Width="1080">
+    <Grid>
+        <Label Content="22 Сентября, Четверг" Foreground="DeepSkyBlue" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" FontWeight="DemiBold"/>
+        <TabControl Margin="0,55,0,0">
+            <TabItem Width="70" Header="0 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="1 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="2 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="3 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="4 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow" Height="454">
+                    <Label Content="КН-П-201 (Разработка приложений с использованием Winforms и GDI+)" FontSize="16" Foreground="DeepSkyBlue" Margin="0,10,0,404"/>
+                    <Grid Margin="10,47,0,376">
+                        <DockPanel Margin="0,0,640,0">
+                            <RadioButton Background="Blue" GroupName="teacher" Content="Основной преподаватель   "/>
+                            <RadioButton GroupName="teacher" Content="Преподаватель на замене          "/>
+                        </DockPanel>
+                        <DockPanel Margin="638,0,0,0">
+                            <Button Content="Добавить материал" DockPanel.Dock="Right"></Button>
+                            <TextBox TextWrapping="Wrap" Text="" Width="224" DockPanel.Dock="Right"/>
+                            <Label Content="Тема урока:" DockPanel.Dock="Right" Width="102"></Label>
+                        </DockPanel>
+                    </Grid>
+                    <Label Background="LightCyan" Margin="0,80,0,330">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="ФИО студента" Width="180" Height="30"></Label>
+                            <Label Foreground="DeepSkyBlue" Content="Заходил в MyStat" Width="150" Height="30"></Label>
+                            <Label Foreground="DeepSkyBlue" Content="Отметить всех" Width="90" Height="30"></Label>
+                            <RadioButton BorderBrush="Green" Content="    " Height="15" Width="90" Checked="RadioButton_Checked"></RadioButton>
+                            <Label Foreground="DeepSkyBlue" Content="Контрольные работы" Width="160" Height="30"></Label>
+                            <Label Foreground="DeepSkyBlue" Content="Работа в классе" Width="130" Height="30"></Label>
+                            <Label Foreground="DeepSkyBlue" Content="5💎" Width="110" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,121,0,288">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="1. Белов Максим Игоревич" Width="200" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green1" GroupName="s1" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s1" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s1" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,163,0,246">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="2. Боярчук Богдан Михайлович" Width="200" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green2" GroupName="s2" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s2" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s2" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s2_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s2_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s2_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,204,0,205">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="3. Вацько Ирина Александровна" Width="200" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green3" GroupName="s3" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s3" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s3" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s3_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s3_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s3_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,246,0,163">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="4. Карпов-Балакирев Даниил Романович" Width="200" Height="32"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green4" GroupName="s4" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s4" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s4" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s4_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s4_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s4_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,288,0,121">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="5. Котликов Альберт Александрович" Width="200" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green5" GroupName="s5" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s5" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s5" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s5_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s5_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s5_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+                    <Label Margin="0,330,0,79">
+                        <TabPanel>
+                            <Label Foreground="DeepSkyBlue" Content="6. Кузьмин Антон Дмитревич" Width="200" Height="30"/>
+                            <Label Foreground="DeepSkyBlue" Content="22.09.2022" Width="150" Height="30"/>
+                            <RadioButton Name="Green6" GroupName="s6" BorderBrush="Green" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s6" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s6" BorderBrush="Red" Content="    " Height="15" Width="160"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
+                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
+                                <ListBoxItem Content="-"/>
+                                <ListBoxItem Content="1"/>
+                                <ListBoxItem Content="2"/>
+                                <ListBoxItem Content="3"/>
+                                <ListBoxItem Content="4"/>
+                                <ListBoxItem Content="5"/>
+                                <ListBoxItem Content="6"/>
+                                <ListBoxItem Content="7"/>
+                                <ListBoxItem Content="8"/>
+                                <ListBoxItem Content="9"/>
+                                <ListBoxItem Content="10"/>
+                                <ListBoxItem Content="11"/>
+                                <ListBoxItem Content="12"/>
+                            </ListBox>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
+                            <RadioButton GroupName="s6_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s6_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <RadioButton GroupName="s6_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
+                            <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
+                        </TabPanel>
+                    </Label>
+
+                </Grid>
+            </TabItem>
+            <TabItem Width="70" Header="5 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="6 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="7 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="8 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="9 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="10 пара" Background="DeepSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="11 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="12 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="13 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+            <TabItem Width="70" Header="14 пара" Background="LightSkyBlue">
+                <Grid Background="Snow"/>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>

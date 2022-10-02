@@ -1,0 +1,56 @@
+﻿<Window x:Class="WpfApp5_2_RoadSign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5_2_RoadSign"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300" Background="CornflowerBlue">
+    <Grid Background="CornflowerBlue" Margin="0,48,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Stretch="Uniform" Fill="White" Margin="151,223,-12,5" RadiusX="10" RadiusY="10" Stroke="Black">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="225"></RotateTransform>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Stretch="Uniform" Fill="Yellow" Margin="152,192,34,86" RadiusX="10" RadiusY="10" Stroke="Black">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="225"></RotateTransform>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Stretch="Uniform" Fill="White" Margin="150,213,-11,13" RadiusX="10" RadiusY="10" Stroke="Black">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                    <GradientStop Offset="0.5" Color="Transparent"></GradientStop>
+                    <GradientStop Offset="1" Color="White"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+        </Rectangle>
+        <Rectangle Stretch="Uniform" Fill="Yellow" Margin="151,243,31,31" RadiusX="10" RadiusY="10" Stroke="Black">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="45"></RotateTransform>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.OpacityMask>
+                <LinearGradientBrush StartPoint="1,1" EndPoint="0,0">
+                    <GradientStop Offset="0.55" Color="Transparent"></GradientStop>
+                    <GradientStop Offset="1" Color="Yellow"></GradientStop>
+                </LinearGradientBrush>
+            </Rectangle.OpacityMask>
+        </Rectangle>
+    </Grid>
+</Window>

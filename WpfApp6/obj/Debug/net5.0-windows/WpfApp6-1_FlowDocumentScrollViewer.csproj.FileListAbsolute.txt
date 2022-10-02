@@ -1,0 +1,1 @@
+C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp6\obj\Debug\net5.0-windows\WpfApp6-1_FlowDocumentScrollViewer.csproj.AssemblyReference.cache

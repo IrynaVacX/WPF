@@ -22,28 +22,207 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Grid.ColumnSpan="4" Background="Black"/>
-        <Button Grid.Column="0" Grid.Row="2"  BorderThickness="5" BorderBrush="White" Margin="-2,0,0,0" Background="#FF151515">C
+        <Button x:Name="_C" Margin="3,3,3,3" Content="C" FontFamily="Comic Sans MS" FontSize="22" Grid.Column="0" Grid.Row="2" Click="_C_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_CE" Margin="3,3,3,3" Content="CE" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="1" Grid.Row="2" Click="_CE_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_dels" Margin="3,3,3,3" Content="🡄" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="2" Grid.Row="2" Click="_dels_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_9" Margin="3,3,3,3" Content="9" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="2" Grid.Row="3" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_8" Margin="3,3,3,3" Content="8" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="1" Grid.Row="3" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_7" Margin="3,3,3,3" Content="7" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="0" Grid.Row="3" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_6" Margin="3,3,3,3" Content="6" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="2" Grid.Row="4" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_5" Margin="3,3,3,3" Content="5" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="1" Grid.Row="4" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_4" Margin="3,3,3,3" Content="4" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="0" Grid.Row="4" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_3" Margin="3,3,3,3" Content="3" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="2" Grid.Row="5" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_2" Margin="3,3,3,3" Content="2" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="1" Grid.Row="5" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_1" Margin="3,3,3,3" Content="1" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="0" Grid.Row="5" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_koma" Margin="3,3,3,3" Content="," FontFamily="Comic Sans MS" FontSize="20" Grid.Column="2" Grid.Row="6" Click="_koma_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_0" Margin="3,3,3,3" Content="0" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="1" Grid.Row="6" Click="printDigits_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_plusorminus" Margin="3,3,3,3" Content="+/-" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="0" Grid.Row="6" Click="printPlusOrMinus_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="LightGray" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_division" Margin="3,3,3,3" Content="÷" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="3" Grid.Row="2" Click="printZnak_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="OrangeRed" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_multiply" Margin="3,3,3,3" Content="x" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22" Grid.Column="3" Grid.Row="3" Click="printZnak_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="OrangeRed" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_minus" Margin="3,3,3,3" Content="-" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="3" Grid.Row="4" Click="printZnak_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="OrangeRed" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_plus" Margin="3,3,3,3" Content="+" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="3" Grid.Row="5" Click="printZnak_Click">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="OrangeRed" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="_equals" Margin="3,3,3,3" Content="=" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="3" Grid.Row="6" Click="_equals_Click">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Grid>
-                        <Ellipse Fill="#FF151515"></Ellipse>
-                        <Label Content="{TemplateBinding Content}" Foreground="#FFB90000" HorizontalAlignment="Center"
-                               VerticalAlignment="Center"></Label>
+                        <Rectangle RadiusX="30" RadiusY="30" Fill="OrangeRed"/>
+                        <Label Content="{TemplateBinding Content}" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Grid.Column="0" Grid.Row="2"  BorderThickness="5" BorderBrush="White" Margin="-2,0,0,0" Background="#FF151515" Content="C" FontFamily="Comic Sans MS" FontSize="22">
-            <Button.Template>
-                <ControlTemplate TargetType="{x:Type Button}">
-                    <Grid>
-                        <Ellipse Fill="#FF151515"/>
-                        <Label Content="{TemplateBinding Content}" Foreground="#FFB90000" HorizontalAlignment="Center"
-                            VerticalAlignment="Center"/>
-                    </Grid>
-                </ControlTemplate>
-            </Button.Template>
-        </Button>
+        <TextBlock x:Name="_display" Margin="5,2,5,2" Text="" TextWrapping="Wrap" TextAlignment="Right" Foreground="LightGray" FontFamily="Comic Sans MS" FontSize="35" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4"/>
+        <TextBlock x:Name="_display2" Margin="5,2,5,2" Text="" TextWrapping="Wrap" TextAlignment="Right" Foreground="DimGray" FontFamily="Comic Sans MS" FontSize="20" Grid.Column="0" Grid.ColumnSpan="4"/>
     </Grid>
 </Window>
