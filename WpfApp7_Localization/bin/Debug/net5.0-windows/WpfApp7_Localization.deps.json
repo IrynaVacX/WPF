@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfApp7_Localization/1.0.0": {
+        "runtime": {
+          "WpfApp7_Localization.dll": {}
+        },
+        "resources": {
+          "de/WpfApp7_Localization.resources.dll": {
+            "locale": "de"
+          },
+          "uk/WpfApp7_Localization.resources.dll": {
+            "locale": "uk"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp7_Localization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="_C" Margin="3,3,3,3" Content="C" FontFamily="Comic Sans MS" FontSize="22" Grid.Column="0" Grid.Row="2" Click="_C_Click">
             <Button.Template>
-                <ControlTemplate  TargetType="Button">
+                <ControlTemplate TargetType="Button">
                     <Grid>
                         <Rectangle RadiusX="30" RadiusY="30" Fill="#333"/>
                         <Label Content="{TemplateBinding Content}" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>

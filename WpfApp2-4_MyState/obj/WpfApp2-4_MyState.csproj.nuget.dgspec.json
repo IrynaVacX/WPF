@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj": {}
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj": {
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj",
         "projectName": "WpfApp2-4_MyState",
-        "projectPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj",
+        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\WpfApp2-4_MyState.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp2-4_MyState\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

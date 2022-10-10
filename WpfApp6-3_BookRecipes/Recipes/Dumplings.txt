@@ -1,7 +1,7 @@
-_Dumplings
+C:\Users\Александр\source\repos\IrynaVacX\WPF\WpfApp6-3_BookRecipes\Recipes\Pics\Dumplings.png
 Пельмені
 СКЛАДОВІ:
 Пакет магазинних пельменів - 1 штука
-
+#@~+
 ІНСТРУКЦІЯ ПРИГОТУВАННЯ:
 На пачці все написано.

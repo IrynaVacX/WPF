@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MyStat" Height="550" Width="1080">
     <Grid>
-        <Label Content="22 Сентября, Четверг" Foreground="DeepSkyBlue" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" FontWeight="DemiBold"/>
+        <Label Content="22 ВЕРЕСНЯ, ЧЕТВЕР" Foreground="DeepSkyBlue" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30" FontWeight="DemiBold"/>
         <TabControl Margin="0,55,0,0">
             <TabItem Width="70" Header="0 пара" Background="LightSkyBlue">
                 <Grid Background="Snow"/>
@@ -23,7 +23,7 @@
             </TabItem>
             <TabItem Width="70" Header="4 пара" Background="DeepSkyBlue">
                 <Grid Background="Snow" Height="454">
-                    <Label Content="КН-П-201 (Разработка приложений с использованием Winforms и GDI+)" FontSize="16" Foreground="DeepSkyBlue" Margin="0,10,0,404"/>
+                    <Label Content="КН-П-201 (Розробка додатків з використанням Winforms та GDI+)" FontSize="16" Foreground="DeepSkyBlue" Margin="0,10,0,404"/>
                     <Grid Margin="10,47,0,376">
                         <DockPanel Margin="0,0,640,0">
                             <RadioButton Background="Blue" GroupName="teacher" Content="Основной преподаватель   "/>
@@ -54,21 +54,20 @@
                             <RadioButton Name="Green1" GroupName="s1" BorderBrush="Green" Content="    " Height="15" Width="20"/>
                             <RadioButton GroupName="s1" BorderBrush="Yellow" Content="    " Height="15" Width="20"/>
                             <RadioButton GroupName="s1" BorderBrush="Red" Content="    " Height="15" Width="160"/>
-                            <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
-                                <ListBoxItem Content="-"/>
-                                <ListBoxItem Content="1"/>
-                                <ListBoxItem Content="2"/>
-                                <ListBoxItem Content="3"/>
-                                <ListBoxItem Content="4"/>
-                                <ListBoxItem Content="5"/>
-                                <ListBoxItem Content="6"/>
-                                <ListBoxItem Content="7"/>
-                                <ListBoxItem Content="8"/>
-                                <ListBoxItem Content="9"/>
-                                <ListBoxItem Content="10"/>
-                                <ListBoxItem Content="11"/>
-                                <ListBoxItem Content="12"/>
-                            </ListBox>
+                            <ComboBox Foreground="DeepSkyBlue" Background="Purple" Text="-" Width="50" Height="30">
+                                <ComboBoxItem Content="12"/>
+                                <ComboBoxItem Content="11"/>
+                                <ComboBoxItem Content="10"/>
+                                <ComboBoxItem Content="9"/>
+                                <ComboBoxItem Content="8"/>
+                                <ComboBoxItem Content="7"/>
+                                <ComboBoxItem Content="6"/>
+                                <ComboBoxItem Content="5"/>
+                                <ComboBoxItem Content="4"/>
+                                <ComboBoxItem Content="3"/>
+                                <ComboBoxItem Content="2"/>
+                                <ComboBoxItem Content="1"/>
+                            </ComboBox>
                             <Label Foreground="DeepSkyBlue" Content="" Width="115" Height="30"/>
                             <ListBox Foreground="DeepSkyBlue" Width="50" Height="30">
                                 <ListBoxItem Content="-"/>
@@ -85,10 +84,10 @@
                                 <ListBoxItem Content="11"/>
                                 <ListBoxItem Content="12"/>
                             </ListBox>
-                            <Label Foreground="DeepSkyBlue" Content="" Width="30" Height="30"/>
-                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
-                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
-                            <RadioButton GroupName="s1_d" BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="20"/>
+                            <Label Foreground="DeepSkyBlue" Content="" Width="25" Height="30"/>
+                            <Label Content="💎" Width="25"/>
+                            <Label Content="💎" Width="25"/>
+                            <Label Content="💎" Width="25"/>
                             <Button BorderBrush="DeepSkyBlue" Content="    " Height="15" Width="15"/>
                             <Label Foreground="DeepSkyBlue" Content="" Width="50" Height="30"/>
                             <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
@@ -329,7 +328,6 @@
                             <TextBox Foreground="DeepSkyBlue" Text="Комментарий" Width="100" Height="30"/>
                         </TabPanel>
                     </Label>
-
                 </Grid>
             </TabItem>
             <TabItem Width="70" Header="5 пара" Background="DeepSkyBlue">
@@ -360,10 +358,17 @@
                 <Grid Background="Snow"/>
             </TabItem>
             <TabItem Width="70" Header="14 пара" Background="LightSkyBlue">
-                <Grid Background="Snow"/>
+                <Grid Background="Snow">
+                    <RadioButton Content="RadioButton" HorizontalAlignment="Left" Height="71" Margin="400,140,0,0" VerticalAlignment="Top" Width="91" Foreground="White">
+                        <RadioButton.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="#FFF31C1C" Offset="1"/>
+                            </LinearGradientBrush>
+                        </RadioButton.Background>
+                    </RadioButton>
+                </Grid>
             </TabItem>
-
         </TabControl>
-
     </Grid>
 </Window>

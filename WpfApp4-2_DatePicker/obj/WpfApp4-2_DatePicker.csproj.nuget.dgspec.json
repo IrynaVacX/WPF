@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj": {}
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj": {
+    "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj",
         "projectName": "WpfApp4-2_DatePicker",
-        "projectPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj",
+        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\WpfApp4-2_DatePicker.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp4-2_DatePicker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

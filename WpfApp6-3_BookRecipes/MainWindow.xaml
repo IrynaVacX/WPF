@@ -6,14 +6,43 @@
         xmlns:local="clr-namespace:WpfApp6_3_BookRecipes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFB27D5E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
-        <ListBox x:Name="lb" Grid.Column="0">
-        </ListBox>
-        <FlowDocumentReader x:Name="fdr" Grid.Column="2">
-        </FlowDocumentReader>
+        <Button x:Name="but1" Background="#FFE6BEA0" Content="Open recipe folder" Grid.Column="0" Grid.Row="0" Margin="5,5,5,5" Click="but1_Click"/>
+        <ListBox x:Name="RecipesListBox" Grid.Column="0" Grid.Row="1" Margin="5,5,5,5" SelectionChanged="RecipesListBox_SelectionChanged" Background="#FFE6BEA0" FontFamily="Lato" FontSize="20"/>
+        <Grid Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Margin="0,5,5,5" Background="#FFEBC8B4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="RecipeImage" Grid.Row="1" Grid.Column="0" MaxHeight="200" Canvas.Left="10" Canvas.Top="45" Margin="0,0,0,0"/>
+            <TextBlock x:Name="RecipeName" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Name" Height="35" Width="535" Canvas.Left="10" Canvas.Top="10" TextAlignment="Center" FontFamily="Lato" FontSize="22" FontWeight="Bold"/>
+            <FlowDocumentScrollViewer x:Name="RecipeIngred" Grid.Column="1" Canvas.Left="267" Canvas.Top="45" FontFamily="Lato" FontSize="20" BorderThickness="3" BorderBrush="#FFB27D5E" Margin="0,2,10,0" Grid.Row="1">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="Ingridients"/>
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+            <FlowDocumentScrollViewer x:Name="RecipeCooking" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Canvas.Left="10" Canvas.Top="245" Margin="10,10,10,10" FontFamily="Lato" FontSize="20" BorderThickness="3" BorderBrush="#FFB27D5E">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="Cooking"/>
+                    </Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+        </Grid>
     </Grid>
 </Window>
