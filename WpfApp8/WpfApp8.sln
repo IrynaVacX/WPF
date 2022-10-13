@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp8", "WpfApp8.csproj", "{F868323F-C800-483F-BA4D-F62ACD1B216A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp8", "WpfApp8.csproj", "{F868323F-C800-483F-BA4D-F62ACD1B216A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp8-02_Person", "..\WpfApp8-02_Person\WpfApp8-02_Person.csproj", "{CF6E93FE-BEB1-4233-98AC-F1A132E69AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp8-03_TextBoxFile", "..\WpfApp8-03_TextBoxFile\WpfApp8-03_TextBoxFile.csproj", "{77FC2EBB-8DCD-4221-ADD5-65AB51E1A4DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F868323F-C800-483F-BA4D-F62ACD1B216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F868323F-C800-483F-BA4D-F62ACD1B216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F868323F-C800-483F-BA4D-F62ACD1B216A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6E93FE-BEB1-4233-98AC-F1A132E69AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6E93FE-BEB1-4233-98AC-F1A132E69AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6E93FE-BEB1-4233-98AC-F1A132E69AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6E93FE-BEB1-4233-98AC-F1A132E69AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FC2EBB-8DCD-4221-ADD5-65AB51E1A4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FC2EBB-8DCD-4221-ADD5-65AB51E1A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FC2EBB-8DCD-4221-ADD5-65AB51E1A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FC2EBB-8DCD-4221-ADD5-65AB51E1A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
