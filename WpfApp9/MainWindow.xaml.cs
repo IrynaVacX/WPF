@@ -1,28 +1,51 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WpfApp9
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
+        private void RedColor(object sender, ExecutedRoutedEventArgs e)
+        {
+            but1.Background = Brushes.Red;
+        }
+        private void GreenColor(object sender, ExecutedRoutedEventArgs e)
+        {
+            but1.Background = Brushes.ForestGreen;
+        }
+        private void BlueColor(object sender, ExecutedRoutedEventArgs e)
+        {
+            but1.Background = Brushes.DeepSkyBlue;
+        }
+        private void YellowColor(object sender, ExecutedRoutedEventArgs e)
+        {
+            but1.Background = Brushes.Yellow;
+        }
+        private void MagentaColor(object sender, ExecutedRoutedEventArgs e)
+        {
+            but1.Background = Brushes.Magenta;
+        }
+    }
+    public class ColorCommands
+    {
+        static ColorCommands()
+        {
+            RedCommand = new RoutedCommand("RedCommand", typeof(ColorCommands));
+            GreenCommand = new RoutedCommand("GreenCommand", typeof(ColorCommands));
+            BlueCommand = new RoutedCommand("BlueCommand", typeof(ColorCommands));
+            YellowCommand = new RoutedCommand("YellowCommand", typeof(ColorCommands));
+            MagentaCommand = new RoutedCommand("MagentaCommand", typeof(ColorCommands));
+        }
+        public static RoutedCommand RedCommand { get; set; }
+        public static RoutedCommand GreenCommand { get; set; }
+        public static RoutedCommand BlueCommand { get; set; }
+        public static RoutedCommand YellowCommand { get; set; }
+        public static RoutedCommand MagentaCommand { get; set; }
     }
 }

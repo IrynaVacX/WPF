@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfApp11_ResourceStyles/1.0.0": {
+        "runtime": {
+          "WpfApp11_ResourceStyles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp11_ResourceStyles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

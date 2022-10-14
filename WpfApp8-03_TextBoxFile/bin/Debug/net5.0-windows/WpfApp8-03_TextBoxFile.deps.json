@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfApp8-03_TextBoxFile/1.0.0": {
+        "runtime": {
+          "WpfApp8-03_TextBoxFile.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp8-03_TextBoxFile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

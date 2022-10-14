@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WFihKxfqknznQtLNXLPuojxuDBZI/q2pKLJolLzIXY2E+7WSv3eKJbveJrijFKK1lJ2ZqgAfwe34CyYfn9w7LQ==",
+  "dgSpecHash": "OZx7xRFUZRU/c4h0MbuA8rNooVF4sFjc3dw/y7IZOzuFvoDxvsv5vSBUhSmIpbXvADkAgpZUK9Wvl9I7LC3jaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\IrynaVacX\\WPF\\WpfApp8\\WpfApp8.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\IrynaVacX\\WPF\\WpfApp8\\WpfApp8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\windowsapicodepack-core\\1.1.2\\windowsapicodepack-core.1.1.2.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
